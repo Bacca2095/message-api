@@ -24,7 +24,7 @@ jobs:
         run: npm run lint
 
       - name: Execute Unit Test
-        run: npm run test:unit
+        run: npm run test:cov
         
         
       - name: Analyze with SonarCloud
