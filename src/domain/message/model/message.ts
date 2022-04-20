@@ -21,7 +21,7 @@ export class Message {
   }
 
   private validateTo(to: string[]) {
-    if (!(to.length > 0)) {
+    if (to.length <= 0) {
       throw new ErrorBase('The addresses is empty', Message.name);
     }
   }
