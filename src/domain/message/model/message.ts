@@ -1,4 +1,4 @@
-import { ErrorBase } from '../../errors/error-base';
+import { ErrorBase } from 'src/domain/errors/error-base';
 import { MessageType } from '../enum/message-type.enum';
 import { IMessage } from './message.interface';
 
